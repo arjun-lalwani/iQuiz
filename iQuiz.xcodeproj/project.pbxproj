@@ -15,6 +15,9 @@
 		B47DC4E51DCDA2C0009DABD3 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47DC4E41DCDA2C0009DABD3 /* iQuizTests.swift */; };
 		B47DC4F01DCDA2C0009DABD3 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47DC4EF1DCDA2C0009DABD3 /* iQuizUITests.swift */; };
 		B47DC4FE1DCDA3C0009DABD3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47DC4FD1DCDA3C0009DABD3 /* TableViewCell.swift */; };
+		B48E15001DD55CD000C4FC0E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E14FF1DD55CD000C4FC0E /* QuestionViewController.swift */; };
+		B48E15021DD571B200C4FC0E /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E15011DD571B200C4FC0E /* AnswerViewController.swift */; };
+		B48E15041DD571D700C4FC0E /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E15031DD571D700C4FC0E /* FinishedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B47DC4EF1DCDA2C0009DABD3 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		B47DC4F11DCDA2C0009DABD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B47DC4FD1DCDA3C0009DABD3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B48E14FF1DD55CD000C4FC0E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		B48E15011DD571B200C4FC0E /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		B48E15031DD571D700C4FC0E /* FinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				B47DC4CF1DCDA2BF009DABD3 /* AppDelegate.swift */,
 				B47DC4D11DCDA2BF009DABD3 /* ViewController.swift */,
 				B47DC4D31DCDA2BF009DABD3 /* Main.storyboard */,
+				B48E15011DD571B200C4FC0E /* AnswerViewController.swift */,
+				B48E15031DD571D700C4FC0E /* FinishedViewController.swift */,
+				B48E14FF1DD55CD000C4FC0E /* QuestionViewController.swift */,
 				B47DC4FD1DCDA3C0009DABD3 /* TableViewCell.swift */,
 				B47DC4D61DCDA2C0009DABD3 /* Assets.xcassets */,
 				B47DC4D81DCDA2C0009DABD3 /* LaunchScreen.storyboard */,
@@ -265,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48E15041DD571D700C4FC0E /* FinishedViewController.swift in Sources */,
+				B48E15001DD55CD000C4FC0E /* QuestionViewController.swift in Sources */,
 				B47DC4FE1DCDA3C0009DABD3 /* TableViewCell.swift in Sources */,
+				B48E15021DD571B200C4FC0E /* AnswerViewController.swift in Sources */,
 				B47DC4D21DCDA2BF009DABD3 /* ViewController.swift in Sources */,
 				B47DC4D01DCDA2BF009DABD3 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +530,7 @@
 				B47DC4F61DCDA2C0009DABD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B47DC4F71DCDA2C0009DABD3 /* Build configuration list for PBXNativeTarget "iQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				B47DC4F91DCDA2C0009DABD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B47DC4FA1DCDA2C0009DABD3 /* Build configuration list for PBXNativeTarget "iQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				B47DC4FC1DCDA2C0009DABD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

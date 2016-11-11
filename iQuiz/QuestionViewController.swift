@@ -10,6 +10,11 @@ import UIKit
 
 class QuestionViewController: UIViewController {
 
+    @IBOutlet weak var option1: UIButton!
+    @IBOutlet weak var option2: UIButton!
+    @IBOutlet weak var option3: UIButton!
+    @IBOutlet weak var option4: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,16 +25,62 @@ class QuestionViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func option1(_ sender: Any) {
+        option1.isSelected = true
     }
-    */
+    
+    @IBAction func option2(_ sender: Any) {
+        option2.isSelected = true
+    }
+    
+    @IBAction func option3(_ sender: Any) {
+        option3.isSelected = true
+    }
+    
+    @IBAction func option4(_ sender: Any) {
+        option4.isSelected = true
+    }
 
+    @IBAction func submitButton(_ sender: Any) {
+    
+        
+        if (option1.isSelected && !option2.isSelected && !option3.isSelected && !option4.isSelected) {
+        
+            let answerView = self.storyboard?.instantiateViewController(withIdentifier: "AnswerVC") as! AnswerViewController
+        
+            self.present(answerView, animated: true, completion: nil)
+            
+        } else if (option2.isSelected && !option1.isSelected && !option3.isSelected && !option4.isSelected) {
+            
+            let answerView = self.storyboard?.instantiateViewController(withIdentifier: "AnswerVC") as! AnswerViewController
+            
+            self.present(answerView, animated: true, completion: nil)
+            
+            
+        } else if (option3.isSelected && !option1.isSelected && !option2.isSelected && !option4.isSelected) {
+            
+            let answerView = self.storyboard?.instantiateViewController(withIdentifier: "AnswerVC") as! AnswerViewController
+            
+            self.present(answerView, animated: true, completion: nil)
+            
+        } else if (option4.isSelected && !option1.isSelected && !option2.isSelected && !option3.isSelected) {
+            
+            let answerView = self.storyboard?.instantiateViewController(withIdentifier: "AnswerVC") as! AnswerViewController
+            
+            self.present(answerView, animated: true, completion: nil)
+            
+        } else {
+            
+            option1.isSelected = false
+            option2.isSelected = false
+            option3.isSelected = false
+            option4.isSelected = false
+            let alertController = UIAlertController(title: "Error", message: "Select one of the 4 options", preferredStyle: UIAlertControllerStyle.alert)
+            
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
+            
+            self.present(alertController, animated: true, completion: nil)
+        }
+        
+    }
 }

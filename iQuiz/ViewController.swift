@@ -43,6 +43,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         alert.addAction(defaultAction)
         self.present(alert, animated: true, completion: nil)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -53,6 +54,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let number = (indexPath as NSIndexPath).row
+        if (number == 1) {
+            let questionController = self.storyboard?.instantiateViewController(withIdentifier: "QuestionVC") as! QuestionViewController
+            self.present(questionController, animated: true, completion: nil)
+        }
+    }
 }
-

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB067F3AD3FEC0D79823DD9FD9485FCDE58AD20B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DB067F3AD3FEC0D79823DD9FD9485FCDE58AD20B" : 9223372036854775807,
+    "456C07A893AA69BE76189205A290C5F7D85732BD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "71EAE7A1-CC21-4D56-A7AF-13F52E5F01A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DB067F3AD3FEC0D79823DD9FD9485FCDE58AD20B" : "iQuiz\/",
+    "456C07A893AA69BE76189205A290C5F7D85732BD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iQuiz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iQuiz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arjun-lalwani\/iOS-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "456C07A893AA69BE76189205A290C5F7D85732BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arjun-lalwani\/iQuiz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB067F3AD3FEC0D79823DD9FD9485FCDE58AD20B"
+    }
+  ]
+}
