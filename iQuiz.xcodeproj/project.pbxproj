@@ -18,6 +18,9 @@
 		B48E15001DD55CD000C4FC0E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E14FF1DD55CD000C4FC0E /* QuestionViewController.swift */; };
 		B48E15021DD571B200C4FC0E /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E15011DD571B200C4FC0E /* AnswerViewController.swift */; };
 		B48E15041DD571D700C4FC0E /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E15031DD571D700C4FC0E /* FinishedViewController.swift */; };
+		B4B1C1AD1DDB06D600FC3287 /* QuizType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C1AC1DDB06D600FC3287 /* QuizType.swift */; };
+		B4B1C1AF1DDB06DE00FC3287 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C1AE1DDB06DE00FC3287 /* Question.swift */; };
+		B4B1C1B11DDB06FF00FC3287 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C1B01DDB06FF00FC3287 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		B48E14FF1DD55CD000C4FC0E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		B48E15011DD571B200C4FC0E /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		B48E15031DD571D700C4FC0E /* FinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
+		B4B1C1AC1DDB06D600FC3287 /* QuizType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizType.swift; sourceTree = "<group>"; };
+		B4B1C1AE1DDB06DE00FC3287 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B4B1C1B01DDB06FF00FC3287 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				B47DC4CF1DCDA2BF009DABD3 /* AppDelegate.swift */,
+				B4B1C1B01DDB06FF00FC3287 /* SwiftyJSON.swift */,
 				B47DC4D11DCDA2BF009DABD3 /* ViewController.swift */,
+				B4B1C1AC1DDB06D600FC3287 /* QuizType.swift */,
+				B4B1C1AE1DDB06DE00FC3287 /* Question.swift */,
 				B47DC4D31DCDA2BF009DABD3 /* Main.storyboard */,
 				B48E15011DD571B200C4FC0E /* AnswerViewController.swift */,
 				B48E15031DD571D700C4FC0E /* FinishedViewController.swift */,
@@ -274,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B1C1AD1DDB06D600FC3287 /* QuizType.swift in Sources */,
+				B4B1C1AF1DDB06DE00FC3287 /* Question.swift in Sources */,
 				B48E15041DD571D700C4FC0E /* FinishedViewController.swift in Sources */,
 				B48E15001DD55CD000C4FC0E /* QuestionViewController.swift in Sources */,
 				B47DC4FE1DCDA3C0009DABD3 /* TableViewCell.swift in Sources */,
 				B48E15021DD571B200C4FC0E /* AnswerViewController.swift in Sources */,
+				B4B1C1B11DDB06FF00FC3287 /* SwiftyJSON.swift in Sources */,
 				B47DC4D21DCDA2BF009DABD3 /* ViewController.swift in Sources */,
 				B47DC4D01DCDA2BF009DABD3 /* AppDelegate.swift in Sources */,
 			);
