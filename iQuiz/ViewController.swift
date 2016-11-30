@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
